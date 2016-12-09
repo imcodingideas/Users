@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "nodemon --exec 'mocha -R min'"
   },
-  "author": "",
+  "author": "Joseph Chambers",
   "license": "ISC",
   "dependencies": {
     "mocha": "^3.2.0",
